@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+p {
+    font-family: 'consolas', Courier, monospace
+}
+
+body {
+    background-image: url('assets/background.png');
+    background-repeat: repeat
+}
+
+header {
+    border: 0px;
+    width: 100%;
+    background-color: #333333;
+    padding: 0 10% 0 10%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    text-decoration: underline;
+    color: #ff0099
+}
+
+div.main {
+    padding: 0 10% 0 10%;
+}
